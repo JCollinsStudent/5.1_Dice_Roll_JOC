@@ -1,5 +1,5 @@
 /**
- * The RecDieRollerDriverclass contains the main method which instantiates a RecDieRoller and calls the roll method.
+ * The RecDieRollerDriverclass contains a main method which instantiates a RecDieRoller and calls the roll method.
  *
  * @author Joshua Collins
  * @version 1.0

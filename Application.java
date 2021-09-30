@@ -1,4 +1,18 @@
+/**
+ * The RecDieRollerDriverclass contains a main method which calls the roll method 1000 times,
+ * then prints the mean number of rolls required to roll a 2.
+ *
+ * @author Joshua Collins
+ * @version 1.0
+ * @since 2021-09-30
+ */ 
 public class Application {
+
+    /**
+	 * The main method populates an array with the rollNumber for each roll, then calculates the mean rollNumber.
+	 *
+	 * @param args
+	 */ 
     public static void main(String[] args) {
         RecDieRoller dieRoller = new RecDieRoller();
         int[] rollNumbers = new int[1001];
